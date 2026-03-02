@@ -29,7 +29,7 @@ def add_sleep(sleep_data):
             try:
                 hours = float(val)
 
-                if hours < 0 or hours > 24:
+                if 0 > hours or hours > 24:
                     print('Invalid input. Enter a number between 0 and 24.')
                     continue
 
@@ -67,7 +67,7 @@ def add_screen(screen_data):
             try:
                 hours = float(val)
 
-                if hours < 0 or hours > 24:
+                if 0 > hours or hours > 24:
                     print('Invalid input. Enter a number between 0 and 24.')
                     continue
 
